@@ -15,8 +15,8 @@
 	<dependencies>
 		<dependency>
 			<artifactId>smsc-events</artifactId>
-			<groupId>${pom.groupId}</groupId>
-			<version>${pom.version}</version>
+			<groupId>${project.groupId}</groupId>
+			<version>${project.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.mobicents.resources</groupId>
@@ -29,13 +29,13 @@
 		</dependency>
 		<dependency>
 			<artifactId>smpp-server-ra-ratype</artifactId>
-			<groupId>${pom.groupId}</groupId>
+			<groupId>${project.groupId}</groupId>
 		</dependency>
 
 		<dependency>
-			<groupId>${pom.groupId}</groupId>
+			<groupId>${project.groupId}</groupId>
 			<artifactId>smpp</artifactId>
-			<version>${pom.version}</version>
+			<version>${project.version}</version>
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>

@@ -18,12 +18,12 @@
 		<dependency>
 			<groupId>org.mobicents.smsc</groupId>
 			<artifactId>test-mapmodule</artifactId>
-			<version>${pom.version}</version>
+			<version>${project.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.mobicents.smsc</groupId>
 			<artifactId>test-oam</artifactId>
-			<version>${pom.version}</version>
+			<version>${project.version}</version>
 		</dependency>
 
 		<dependency>
